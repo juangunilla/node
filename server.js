@@ -36,7 +36,7 @@ const server  = http.createServer((request, response) => {
 
 )
 
-const PORT = process.env ||8080
+const PORT = process.env.PORT
 
 
 server.listen(PORT,err=>{
